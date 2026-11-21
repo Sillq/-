@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="가상의 대학생 이지영의 CJ 지원용 경영학 포트폴리오"><title>이지영 | Business Portfolio</title>
+<style>
+:root{--cream:#faf5eb;--paper:#fffdf8;--orange:#a9471c;--deep:#6e2c13;--ink:#29251f;--muted:#746d64;--line:#e8dccd}*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--cream);color:var(--ink);font-family:Pretendard,'Noto Sans KR',Arial,sans-serif;line-height:1.7}button,a{font:inherit}a{color:inherit;text-decoration:none}button{cursor:pointer}.container{width:min(1100px,calc(100% - 44px));margin:auto}.skip{position:absolute;left:-9999px}.skip:focus{left:15px;top:15px;background:white;padding:10px;z-index:20}.notice{background:var(--deep);color:#fff3e8;text-align:center;padding:8px 16px;font-size:12px;letter-spacing:.02em}header{background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:20px}.brand{font-size:22px;font-weight:900;letter-spacing:-.05em;color:var(--deep)}.brand span{color:var(--orange)}nav{display:flex;gap:26px;align-items:center}nav a{font-size:14px;font-weight:700}nav a:hover,nav a:focus-visible{color:var(--orange);text-decoration:underline;text-underline-offset:6px}.menu-toggle{display:none;background:transparent;border:1px solid var(--line);border-radius:8px;padding:8px 12px;color:var(--deep)}.hero{padding:105px 0 100px;border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.4fr .6fr;align-items:center;gap:50px}.eyebrow{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--orange);font-weight:800}.hero h1{font-size:clamp(42px,6vw,76px);letter-spacing:-.075em;line-height:1.17;margin:19px 0 24px}.hero h1 em{font-style:normal;color:var(--orange)}.hero p{max-width:590px;color:var(--muted);font-size:17px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 22px;border-radius:6px;border:1px solid var(--orange);font-size:14px;font-weight:800;background:var(--orange);color:white}.btn.outline{background:transparent;color:var(--orange)}.portrait{aspect-ratio:4/5;background:#eacdb4;border-radius:140px 140px 14px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--deep);border:1px solid #d8ae8a;position:relative}.portrait .monogram{font-family:Georgia,serif;font-size:clamp(75px,10vw,135px);font-weight:bold;letter-spacing:-.1em}.portrait small{font-size:12px;letter-spacing:.22em;font-weight:700}.portrait:after{content:"BUSINESS · STRATEGY · IMPACT";position:absolute;bottom:22px;font-size:10px;letter-spacing:.1em}section{padding:95px 0;scroll-margin-top:100px}.section-head{margin-bottom:36px}.section-head h2{font-size:clamp(30px,4vw,43px);letter-spacing:-.055em;margin:8px 0}.section-head p{color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:30px}.panel h3{margin:0 0 14px;font-size:21px}.panel p{color:var(--muted)}.fact{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding:13px 0;font-size:14px}.fact:last-child{border:0}.fact span:first-child{color:var(--muted)}.fact strong{text-align:right}.projects{background:#f2e8da}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project-card{background:var(--paper);border:1px solid #e4d4c2;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}.project-art{height:155px;display:flex;align-items:center;justify-content:center;background:#e6c2a5;color:var(--deep);font-family:Georgia,serif;font-size:60px;font-weight:700}.project-card:nth-child(2) .project-art{background:#d7a57f}.project-card:nth-child(3) .project-art{background:#f1d8bd}.project-content{padding:25px;display:flex;flex-direction:column;flex:1}.tag{color:var(--orange);font-size:12px;font-weight:900;letter-spacing:.04em}.project-content h3{font-size:21px;letter-spacing:-.035em;line-height:1.4;margin:12px 0}.project-content p{font-size:14px;color:var(--muted);flex:1}.detail-btn{background:transparent;color:var(--orange);border:0;padding:12px 0 0;text-align:left;font-weight:900;align-self:flex-start}.detail-btn:hover{text-decoration:underline}.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.skill-title{font-weight:900;color:var(--deep);margin:0 0 12px}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid #e3cbb6;background:#fbf1e7;color:#7b3c21;padding:6px 11px;border-radius:30px;font-size:12px;font-weight:700}.timeline{border-left:2px solid #c67a4e;margin-left:10px;padding-left:30px}.timeline-item{position:relative;padding:0 0 30px}.timeline-item:last-child{padding-bottom:0}.timeline-item:before{content:"";position:absolute;left:-38px;top:8px;width:12px;height:12px;background:var(--orange);border:3px solid var(--cream);border-radius:50%}.timeline-item .date{font-size:12px;font-weight:900;color:var(--orange)}.timeline-item h3{margin:4px 0;font-size:19px}.timeline-item p{margin:0;color:var(--muted);font-size:14px}.contact{background:var(--deep);color:#fff6ec}.contact .eyebrow{color:#f1b991}.contact .section-head p{color:#eed2c2}.contact a.email{display:inline-block;font-size:clamp(19px,3vw,31px);font-weight:800;overflow-wrap:anywhere;border-bottom:2px solid #f0b28c;padding-bottom:6px}.contact .sub{color:#edd2c1;font-size:14px;margin-top:20px}footer{background:#52200e;color:#e6c4af;padding:22px 0;font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.modal-backdrop{position:fixed;inset:0;background:rgba(31,20,12,.7);display:none;align-items:center;justify-content:center;padding:20px;z-index:30}.modal-backdrop.open{display:flex}.modal{background:var(--paper);width:min(620px,100%);max-height:85vh;overflow:auto;border-radius:14px;padding:30px;position:relative}.modal h2{color:var(--deep);font-size:27px;line-height:1.4;margin:12px 38px 12px 0}.modal p,.modal li{color:#5f564d}.modal h3{font-size:16px;margin-top:24px}.modal ul{padding-left:21px}.close{position:absolute;right:18px;top:14px;background:transparent;border:0;font-size:28px;color:var(--deep);line-height:1.2}.modal-foot{border-top:1px solid var(--line);padding-top:14px;margin-top:20px;color:var(--muted);font-size:12px}@media(max-width:760px){.nav{min-height:64px;flex-wrap:wrap}.menu-toggle{display:block}nav{display:none;width:100%;padding:0 0 16px;flex-direction:column;align-items:stretch;gap:0}nav.open{display:flex}nav a{padding:11px 0;border-top:1px solid var(--line)}.hero{padding:65px 0}.hero-grid,.about-grid{grid-template-columns:1fr}.portrait{width:min(280px,75%);margin:auto}.hero h1{font-size:46px}.project-grid,.skills-grid{grid-template-columns:1fr}section{padding:65px 0}.project-art{height:125px}.panel{padding:23px}.modal{padding:25px}}
+
+/* Illustrated data studio: optional, accessible motion; no external assets */
+.hero-grid{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:38px}
+.hero-copy{min-width:0;position:relative;z-index:1}
+.scene-motion{min-width:0;width:100%;max-width:520px;justify-self:center;margin:0;position:relative;z-index:0}
+.scene-motion .scene-art{width:100%;max-width:100%;transform-origin:center center;will-change:transform}
+.scene-motion svg{display:block;width:100%;height:auto;overflow:hidden}
+.scene-controls{display:flex;justify-content:center;margin-top:10px}
+.motion-toggle{border:1px solid var(--orange);background:var(--paper);color:var(--deep);border-radius:8px;padding:8px 16px;font-weight:800;font-size:13px}
+.motion-toggle:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.scene-motion .scene-art{will-change:auto}}
+.scene-motion figcaption{margin:12px auto 0;max-width:440px;text-align:center;font-size:13px;line-height:1.65;color:var(--muted)}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr;gap:34px}.scene-motion{max-width:460px;grid-row:2}.hero-copy{grid-row:1}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<div class="notice">본 웹사이트의 인물 소개, 학력, 경력, 프로젝트, 수상 및 활동 이력은 모두 가상으로 구성되었습니다.</div>
+<header><div class="container nav"><a class="brand" href="#home">JIYEONG<span>.</span></a><button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="메뉴 열기">☰ 메뉴</button><nav id="mainNav" aria-label="주요 메뉴"><a href="#about">소개</a><a href="#projects">프로젝트</a><a href="#skills">역량</a><a href="#activities">활동 기록</a><a href="#contact">연락처</a></nav></div></header>
+<main id="main"><div class="hero" id="home"><div class="container hero-grid"><div class="hero-copy"><div class="eyebrow">Business Portfolio · CJ Application</div><h1>관찰에서 전략으로,<br><em>아이디어를 실행으로.</em></h1><p>안녕하세요. 데이터를 통해 문제를 발견하고, 사람과 비즈니스를 연결하는 경영학도 <strong>이지영</strong>입니다. 고객의 일상에 새로운 가치를 만드는 CJ와 함께 성장하고 싶습니다.</p><div class="actions"><a class="btn" href="#projects">프로젝트 보기</a><a class="btn outline" href="#contact">연락하기</a></div></div><figure class="scene-motion" aria-labelledby="studio-caption">
+<div class="scene-art">
+<svg viewBox="0 0 560 440" role="img" aria-labelledby="studio-title studio-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="studio-title">귀여운 데이터 작업실</title>
+<desc id="studio-desc">나무 책상 위에 데이터 그래프가 표시된 듀얼 모니터, 둥근 캐릭터, 작은 화분과 머그컵이 있는 포근한 일러스트</desc>
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff5e8"/><stop offset="1" stop-color="#f4dcc4"/></linearGradient>
+ <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d89a63"/><stop offset="1" stop-color="#b97443"/></linearGradient>
+ <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0d9"/><stop offset="1" stop-color="#eebc91"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffefb"/><stop offset="1" stop-color="#f9e8d6"/></linearGradient>
+ <filter id="softShadow" x="-30%" y="-40%" width="160%" height="190%"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#6e2c13" flood-opacity=".16"/></filter>
+ <filter id="smallShadow" x="-30%" y="-40%" width="160%" height="180%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#6e2c13" flood-opacity=".16"/></filter>
+</defs>
+<rect x="10" y="10" width="540" height="415" rx="42" fill="url(#wall)"/>
+<circle cx="465" cy="76" r="45" fill="#f5cba6" opacity=".5"/><circle cx="88" cy="98" r="56" fill="#fffaf0" opacity=".65"/>
+<path d="M36 316 Q280 278 524 316 L524 394 Q280 425 36 394Z" fill="#f0d3b7" opacity=".65"/>
+<!-- Monitor stands and screens -->
+<g filter="url(#softShadow)">
+ <rect x="75" y="99" width="205" height="151" rx="15" fill="#6f4334"/>
+ <rect x="84" y="108" width="187" height="131" rx="9" fill="url(#screen)"/>
+ <rect x="298" y="82" width="192" height="160" rx="15" fill="#6f4334"/>
+ <rect x="307" y="91" width="174" height="140" rx="9" fill="url(#screen)"/>
+</g>
+<g fill="#94634b"><rect x="169" y="249" width="17" height="48" rx="5"/><rect x="385" y="241" width="17" height="56" rx="5"/><rect x="137" y="292" width="81" height="9" rx="4"/><rect x="354" y="292" width="80" height="9" rx="4"/></g>
+<!-- Dashboard on first monitor -->
+<rect x="97" y="121" width="79" height="9" rx="4" fill="#e8c6a9"/><rect x="97" y="139" width="51" height="6" rx="3" fill="#e8d9c9"/>
+<path d="M100 209H254" stroke="#e9d5c4" stroke-width="2"/>
+<rect x="113" y="178" width="18" height="31" rx="5" fill="#edbd8c"/><rect x="143" y="165" width="18" height="44" rx="5" fill="#c97d50"/><rect x="173" y="150" width="18" height="59" rx="5" fill="#a9471c"/><rect x="203" y="172" width="18" height="37" rx="5" fill="#df9d70"/><rect x="233" y="157" width="15" height="52" rx="5" fill="#bb6d40"/>
+<!-- Dashboard on second monitor -->
+<rect x="320" y="105" width="83" height="9" rx="4" fill="#e8c6a9"/><rect x="320" y="121" width="50" height="6" rx="3" fill="#e8d9c9"/>
+<path d="M320 205H465 M320 168H465" stroke="#eadacb" stroke-width="2"/>
+<path d="M322 193 L347 177 L373 185 L402 151 L432 162 L462 134" fill="none" stroke="#a9471c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#a9471c"><circle cx="347" cy="177" r="5"/><circle cx="402" cy="151" r="5"/><circle cx="462" cy="134" r="5"/></g>
+<!-- Wood desk -->
+<g filter="url(#softShadow)"><rect x="38" y="297" width="484" height="31" rx="13" fill="url(#desk)"/><rect x="56" y="323" width="18" height="73" rx="7" fill="#9c5d36"/><rect x="486" y="323" width="18" height="73" rx="7" fill="#9c5d36"/></g>
+<path d="M65 310H495" stroke="#edbc8b" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<!-- Keyboard -->
+<g filter="url(#smallShadow)"><path d="M223 284H355L372 299H207Z" fill="#f8e4d1" stroke="#c99a79" stroke-width="2"/><path d="M235 290H349 M226 295H359" stroke="#d4ad91" stroke-width="3" stroke-dasharray="9 5"/></g>
+<!-- Round character -->
+<g filter="url(#softShadow)"><ellipse cx="177" cy="267" rx="69" ry="64" fill="url(#face)" stroke="#d69a72" stroke-width="3"/><path d="M118 242 Q130 205 169 204 Q211 204 232 240" fill="#a75a37"/><circle cx="153" cy="260" r="5" fill="#4d3029"/><circle cx="198" cy="260" r="5" fill="#4d3029"/><path d="M169 275Q176 283 184 275" stroke="#7c4535" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="132" cy="273" rx="12" ry="7" fill="#e9a08c" opacity=".65"/><ellipse cx="218" cy="273" rx="12" ry="7" fill="#e9a08c" opacity=".65"/><path d="M127 305Q176 330 226 305" fill="#a9471c"/><ellipse cx="125" cy="302" rx="16" ry="10" fill="#f2c9a4"/><ellipse cx="228" cy="302" rx="16" ry="10" fill="#f2c9a4"/></g>
+<!-- Mug -->
+<g filter="url(#smallShadow)"><path d="M393 270H437L433 298Q416 305 398 298Z" fill="#fff9ef" stroke="#c9875a" stroke-width="3"/><path d="M436 276Q458 273 455 287Q453 299 436 293" fill="none" stroke="#c9875a" stroke-width="6"/><path d="M405 258Q399 250 407 243 M421 257Q415 249 423 241" fill="none" stroke="#d6a588" stroke-width="3" stroke-linecap="round"/></g>
+<!-- Plant -->
+<g filter="url(#smallShadow)"><path d="M463 268H506L499 299H470Z" fill="#d37e52"/><path d="M483 268V219" stroke="#5f8255" stroke-width="5" stroke-linecap="round"/><ellipse cx="469" cy="234" rx="12" ry="23" transform="rotate(-38 469 234)" fill="#71966b"/><ellipse cx="497" cy="225" rx="12" ry="24" transform="rotate(35 497 225)" fill="#5e835b"/><ellipse cx="484" cy="208" rx="11" ry="22" fill="#83a479"/></g>
+<g fill="#c98153" opacity=".7"><circle cx="65" cy="67" r="5"/><circle cx="504" cy="166" r="4"/><path d="M492 51v15m-7-7h14" stroke="#c98153" stroke-width="3" stroke-linecap="round"/></g>
+</svg>
+</div>
+<div class="scene-controls"><button type="button" class="motion-toggle" id="motionToggle" aria-pressed="false">움직임 멈춤</button></div>
+<figcaption id="studio-caption">작은 데이터 작업실은 숫자 속에서 인사이트를 찾고, 협업으로 아이디어를 실행하는 태도를 상징합니다. (가상 일러스트)</figcaption>
+</figure></div></div></div>
+<section id="about"><div class="container"><div class="section-head"><div class="eyebrow">01 / About Me</div><h2>소개</h2><p>논리적인 분석과 따뜻한 소통을 함께 추구합니다.</p></div><div class="about-grid"><article class="panel"><h3>비즈니스의 가능성을 발견하는 사람</h3><p>가톨릭대학교 경영학과에서 전략, 마케팅, 데이터 분석을 공부하며 고객의 문제를 비즈니스 기회로 전환하는 방법을 탐구했습니다.</p><p>플랜바이비 인턴십에서 공공·민간 프로젝트의 자료 분석과 이해관계자 커뮤니케이션을 경험하고, 포스코홀딩스 지속가능경영 리바운드그라운드에서는 ESG 아이디어를 실행 가능한 제안으로 발전시켰습니다.</p><p>앞으로 CJ의 다양한 사업과 고객 접점을 이해하고, 데이터와 현장 관점을 결합한 전략을 제안하고 싶습니다.</p></article><aside class="panel"><h3>Profile</h3><div class="fact"><span>이름</span><strong>이지영</strong></div><div class="fact"><span>학교 / 전공</span><strong>가톨릭대학교 경영학과</strong></div><div class="fact"><span>지원 기업</span><strong>CJ</strong></div><div class="fact"><span>관심 분야</span><strong>사업전략 · 마케팅 · ESG</strong></div><div class="fact"><span>핵심 키워드</span><strong>분석 · 실행 · 협업</strong></div></aside></div></div></section>
+<section class="projects" id="projects"><div class="container"><div class="section-head"><div class="eyebrow">02 / Selected Works</div><h2>주요 프로젝트</h2><p>문제를 정의하고, 데이터를 해석하고, 실행안을 설계한 네 가지 경험입니다.</p></div><div class="project-grid"><article class="project-card"><div class="project-art" aria-hidden="true">01</div><div class="project-content"><span class="tag">INTERNSHIP · PLAN BY B</span><h3>공공데이터 전략 컨설팅 지원</h3><p>기관별 자료를 정리하고 의견을 취합해 정책 방향 수립에 필요한 분석 기반을 마련한 프로젝트.</p><button class="detail-btn" data-project="plan">상세 보기 +</button></div></article><article class="project-card"><div class="project-art" aria-hidden="true">02</div><div class="project-content"><span class="tag">COMPETITION · POSCO HOLDINGS</span><h3>지속가능경영 리바운드그라운드</h3><p>골프장 워터해저드 안전 문제를 ESG 관점에서 재해석하고 예방 솔루션을 제안한 프로젝트.</p><button class="detail-btn" data-project="posco">상세 보기 +</button></div></article><article class="project-card"><div class="project-art" aria-hidden="true">03</div><div class="project-content"><span class="tag">COMPETITION · BUSINESS ANALYSIS</span><h3>기업분석경진대회</h3><p>이차전지 장비 기업의 사업 구조와 경쟁 환경을 분석하고 성장 전략을 제안한 기업분석 프로젝트.</p><button class="detail-btn" data-project="analysis">상세 보기 +</button></div></article><article class="project-card"><div class="project-art" aria-hidden="true">04</div><div class="project-content"><span class="tag">GRAND PRIZE · AI IDEA COMPETITION</span><h3>AI 아이디어 경진대회 · 대상</h3><p>AI를 활용한 문제 해결 아이디어를 제안하고 실현 가능성과 기대 효과를 정리한 수상 프로젝트.</p><button class="detail-btn" data-project="ai">상세 보기 +</button></div></article></div></div></section>
+<section id="skills"><div class="container"><div class="section-head"><div class="eyebrow">03 / Capabilities</div><h2>핵심 역량</h2><p>분석 결과가 실질적인 의사결정으로 이어지도록 연결합니다.</p></div><div class="skills-grid"><article class="panel"><h3 class="skill-title">01. 전략적 문제 해결</h3><p>현황을 구조화하고 핵심 과제를 도출해 실현 가능한 대안을 설계합니다.</p><div class="chips"><span class="chip">시장 분석</span><span class="chip">문제 정의</span><span class="chip">사업 기획</span></div></article><article class="panel"><h3 class="skill-title">02. 데이터 활용</h3><p>정량·정성 자료를 정리하고 시각화하여 설득력 있는 근거를 만듭니다.</p><div class="chips"><span class="chip">Excel</span><span class="chip">SQL 기초</span><span class="chip">리서치</span></div></article><article class="panel"><h3 class="skill-title">03. 협업 및 커뮤니케이션</h3><p>서로 다른 이해관계자의 관점을 이해하고 공동의 목표를 조율합니다.</p><div class="chips"><span class="chip">이해관계자 소통</span><span class="chip">회의 기록</span><span class="chip">팀워크</span></div></article><article class="panel"><h3 class="skill-title">04. 지속가능한 가치 창출</h3><p>환경·사회적 가치를 비즈니스의 실행 과제와 연결합니다.</p><div class="chips"><span class="chip">ESG</span><span class="chip">아이디어 구체화</span><span class="chip">제안서 작성</span></div></article></div></div></section>
+<section id="activities"><div class="container"><div class="section-head"><div class="eyebrow">04 / Experience Log</div><h2>활동 기록</h2><p>학업에서 실무와 도전으로 확장해 온 가상의 성장 여정입니다.</p></div><div class="timeline"><div class="timeline-item"><div class="date">2026 · AWARD</div><h3>AI 아이디어 경진대회 · 대상</h3><p>AI 기반 문제 해결 아이디어 기획 및 대상 수상(가상 설정)</p></div><div class="timeline-item"><div class="date">2026 · COMPETITION</div><h3>기업분석경진대회</h3><p>이차전지 장비 기업의 경쟁 환경 분석 및 성장 전략 제안</div><div class="timeline-item"><div class="date">2026 · COMPETITION</div><h3>포스코홀딩스 지속가능경영 리바운드그라운드</h3><p>워터해저드 안전 솔루션 기획 및 ESG 관점의 사업 제안</p></div><div class="timeline-item"><div class="date">2025–2026 · INTERNSHIP</div><h3>플랜바이비 인턴</h3><p>공공데이터 관련 조사·분석, 자료 취합 및 프로젝트 커뮤니케이션 지원</p></div><div class="timeline-item"><div class="date">UNIVERSITY · EDUCATION</div><h3>가톨릭대학교 경영학과</h3><p>경영전략, 마케팅, 데이터 기반 의사결정 관련 학습</p></div></div></div></section>
+<section class="contact" id="contact"><div class="container"><div class="section-head"><div class="eyebrow">05 / Contact</div><h2>함께 가치를 만들고 싶습니다.</h2><p>새로운 관점과 실행력으로 CJ의 다음 기회에 기여하겠습니다.</p></div><a class="email" href="mailto:ji0work04@gmail.com">ji0work04@gmail.com</a><p class="sub">지원 기업: CJ · 이지영 / 가톨릭대학교 경영학과</p></div></section></main>
+<footer><div class="container footer-row"><span>© 2026 LEE JIYEONG · PORTFOLIO</span><span>본 포트폴리오에 기재된 모든 이력 및 성과는 가상입니다. 실제 경력·수상 내역이 아닙니다.</span></div></footer>
+<div class="modal-backdrop" id="modalBackdrop" aria-hidden="true"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1"><button class="close" id="modalClose" aria-label="상세 보기 닫기">×</button><span class="tag" id="modalTag"></span><h2 id="modalTitle"></h2><p id="modalIntro"></p><h3>주요 수행 내용</h3><ul id="modalTasks"></ul><h3>배운 점 및 기여</h3><p id="modalOutcome"></p><div class="modal-foot">※ 해당 내용은 포트폴리오 예시를 위해 구성한 가상의 프로젝트 이력입니다.</div></div></div>
+<script>
+const projects={plan:{tag:'INTERNSHIP · PLAN BY B',title:'공공데이터 전략 컨설팅 지원',intro:'플랜바이비 인턴으로서 공공데이터 관련 전략 컨설팅의 자료 정리와 소통 업무를 지원한 가상 사례입니다.',tasks:['기관별 제출 자료의 형식과 내용을 점검하고 분석용 데이터로 정리','설문 및 의견 수렴 결과를 Excel로 집계하고 주요 시사점 도출 지원','프로젝트 이해관계자의 문의와 수정 요청을 정리하여 협업 효율 개선'],outcome:'정확한 자료 관리와 상대방의 상황을 고려한 커뮤니케이션이 전략 프로젝트의 완성도를 높인다는 점을 배웠습니다.'},posco:{tag:'COMPETITION · POSCO HOLDINGS',title:'지속가능경영 리바운드그라운드',intro:'골프장 워터해저드에서 발생할 수 있는 안전사고를 줄이는 ESG 솔루션을 기획한 가상 대회 프로젝트입니다.',tasks:['골프장 수변 공간의 사고 위험과 기존 대응 방식의 한계 분석','수면에 띄우는 안전 장치의 작동 시나리오 및 운영 방식 구상','안전성, 유지관리, 확산 가능성을 고려한 실행 로드맵 제안'],outcome:'사회적 가치를 창출하는 아이디어도 비용, 운영 주체, 실제 사용 환경을 함께 검토해야 설득력을 얻는다는 점을 확인했습니다.'},analysis:{tag:'COMPETITION · BUSINESS ANALYSIS',title:'기업분석경진대회',intro:'이차전지 장비 기업의 산업 환경과 사업 경쟁력을 분석한 가상 경진대회 프로젝트입니다.',tasks:['산업 동향 및 주요 경쟁사의 사업 구조 비교','기업의 강점과 위험 요인을 바탕으로 성장 기회 도출','시장 확대 및 경쟁력 강화를 위한 실행 전략 제안'],outcome:'정량 지표와 산업 맥락을 함께 분석하고 제안을 논리적으로 전달하는 역량을 발전시켰습니다.'},ai:{tag:'GRAND PRIZE · AI IDEA COMPETITION',title:'AI 아이디어 경진대회 · 대상',intro:'AI 기술을 활용해 현실의 문제를 해결하는 아이디어를 제안하고 대상을 수상한 것으로 설정한 가상 경진대회 경험입니다.',tasks:['사용자의 불편과 해결해야 할 핵심 문제 정의','AI 활용 시나리오 및 서비스 운영 방식 구체화','기대 효과와 실현 가능성을 중심으로 발표 자료 구성'],outcome:'기술 자체보다 사용자에게 제공하는 가치와 실행 가능성이 중요하다는 점을 배웠습니다. 대상 수상은 가상 설정입니다.'}};
+const menuToggle=document.getElementById('menuToggle'),nav=document.getElementById('mainNav');menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'메뉴 닫기':'메뉴 열기')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','메뉴 열기')}));
+const backdrop=document.getElementById('modalBackdrop'),dialog=backdrop.querySelector('.modal'),closeBtn=document.getElementById('modalClose');let previousFocus=null;function closeModal(){backdrop.classList.remove('open');backdrop.setAttribute('aria-hidden','true');document.body.style.overflow='';if(previousFocus)previousFocus.focus()}document.querySelectorAll('[data-project]').forEach(btn=>btn.addEventListener('click',()=>{const p=projects[btn.dataset.project];if(!p)return;previousFocus=btn;document.getElementById('modalTag').textContent=p.tag;document.getElementById('modalTitle').textContent=p.title;document.getElementById('modalIntro').textContent=p.intro;document.getElementById('modalOutcome').textContent=p.outcome;document.getElementById('modalTasks').replaceChildren(...p.tasks.map(t=>{const li=document.createElement('li');li.textContent=t;return li}));backdrop.classList.add('open');backdrop.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';closeBtn.focus()}));closeBtn.addEventListener('click',closeModal);backdrop.addEventListener('click',e=>{if(e.target===backdrop)closeModal()});document.addEventListener('keydown',e=>{if(!backdrop.classList.contains('open'))return;if(e.key==='Escape')closeModal();if(e.key==='Tab'){const focusables=[...dialog.querySelectorAll('button,a[href],input,[tabindex]:not([tabindex="-1"])')];const first=focusables[0],last=focusables[focusables.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+
+// Studio motion: timestamp-based RAF, desktop pointer tilt, scroll parallax.
+(() => {
+  const scene = document.querySelector('.scene-motion');
+  const art = scene?.querySelector('.scene-art');
+  const toggle = document.getElementById('motionToggle');
+  if (!scene || !art || !toggle) return;
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const desktopPointer = window.matchMedia('(hover: hover) and (pointer: fine) and (min-width: 761px)');
+  let manuallyPaused = false;
+  let frameId = null;
+  let elapsed = 0;
+  let lastTimestamp = null;
+  let targetX = 0, targetY = 0;
+  let pointerX = 0, pointerY = 0;
+  let scrollTarget = 0, scrollY = 0;
+  let pointerInside = false;
+
+  const canMove = () => !manuallyPaused && !reduced.matches && !document.hidden;
+  const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+  const reset = () => {
+    art.style.transform = 'translate3d(0, 0, 0) rotateX(0deg) rotateY(0deg)';
+    lastTimestamp = null;
+  };
+  const readScroll = () => {
+    // At most 20px upward, relative to the page scroll position.
+    scrollTarget = -clamp(window.scrollY * 0.06, 0, 20);
+  };
+  const updateButton = () => {
+    const stopped = manuallyPaused || reduced.matches;
+    toggle.textContent = stopped ? '움직임 시작' : '움직임 멈춤';
+    toggle.setAttribute('aria-pressed', String(stopped));
+    toggle.setAttribute('aria-label', stopped ? '작업실 움직임 시작' : '작업실 움직임 멈춤');
+    if (reduced.matches) toggle.title = '시스템의 움직임 줄이기 설정에 따라 정지되어 있습니다';
+    else toggle.removeAttribute('title');
+  };
+  const stop = () => {
+    if (frameId !== null) cancelAnimationFrame(frameId);
+    frameId = null;
+    reset();
+  };
+  const tick = (timestamp) => {
+    frameId = null;
+    if (!canMove()) { stop(); return; }
+    if (lastTimestamp === null) lastTimestamp = timestamp;
+    const dt = clamp(timestamp - lastTimestamp, 0, 64);
+    lastTimestamp = timestamp;
+    elapsed += dt;
+    const ease = 1 - Math.exp(-dt / 170);
+    pointerX += (targetX - pointerX) * ease;
+    pointerY += (targetY - pointerY) * ease;
+    scrollY += (scrollTarget - scrollY) * ease;
+    const floatY = Math.sin((elapsed / 7000) * Math.PI * 2) * 5;
+    const x = desktopPointer.matches ? pointerX * 7 : 0;
+    const y = floatY + scrollY + (desktopPointer.matches ? pointerY * 4 : 0);
+    const tiltY = desktopPointer.matches ? pointerX * 4 : 0;
+    const tiltX = desktopPointer.matches ? -pointerY * 4 : 0;
+    art.style.transform = `translate3d(${x.toFixed(2)}px, ${y.toFixed(2)}px, 0) rotateX(${tiltX.toFixed(2)}deg) rotateY(${tiltY.toFixed(2)}deg)`;
+    frameId = requestAnimationFrame(tick);
+  };
+  const sync = () => {
+    updateButton();
+    if (!canMove()) { stop(); return; }
+    readScroll();
+    if (frameId === null) frameId = requestAnimationFrame(tick);
+  };
+  scene.addEventListener('pointermove', (event) => {
+    if (!desktopPointer.matches || event.pointerType === 'touch') return;
+    const rect = scene.getBoundingClientRect();
+    targetX = clamp(((event.clientX - rect.left) / rect.width - 0.5) * 2, -1, 1);
+    targetY = clamp(((event.clientY - rect.top) / rect.height - 0.5) * 2, -1, 1);
+    pointerInside = true;
+  }, { passive: true });
+  scene.addEventListener('pointerleave', () => { pointerInside = false; targetX = targetY = 0; });
+  window.addEventListener('scroll', readScroll, { passive: true });
+  desktopPointer.addEventListener('change', () => {
+    if (!desktopPointer.matches) { pointerInside = false; targetX = targetY = pointerX = pointerY = 0; }
+    sync();
+  });
+  reduced.addEventListener('change', sync);
+  document.addEventListener('visibilitychange', sync);
+  toggle.addEventListener('click', () => { manuallyPaused = !manuallyPaused; sync(); });
+  readScroll();
+  sync();
+})();
+</script>
+</body></html>
